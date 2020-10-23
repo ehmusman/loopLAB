@@ -1,0 +1,70 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.8;
+}
+
+#home-section .bg-img {
+    background: url('../img/looplab/home.jpg') center center/cover no-repeat;
+    min-height: 600px;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .inner-content {
+    padding-top: 120px;
+}
+
+#home-section .fa-check {
+    color: #008ed6;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#home-section .card-form {
+    opacity: 0.9;
+}
+
+
+/* Explore section */
+
+#explore-section .fa-check {
+    color: #fff;
+    background-color: #333;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/* Create Section */
+
+#create-section .fa-check {
+    color: #008ed6;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/* Create Section */
+
+#share-section .fa-check {
+    color: #fff;
+    background-color: #333;
+    padding: 5px;
+    border-radius: 5px;
+}
